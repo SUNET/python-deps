@@ -46,11 +46,11 @@
   {
     "user_id": 1001,
     "process_name": "pip",
-    "binary_path": "/opt/hostedtoolcache/Python/3.8.16/x64/bin/python3.8",
-    "binary_sha256": "c2515e752c271678f91f6e877542fe3548739723e85cbb2316f279e984a2c46b",
+    "binary_path": "/opt/hostedtoolcache/Python/3.9.16/x64/bin/python3.9",
+    "binary_sha256": "f87c4433cc987dc4a295ebd7dcfc801a66c040bfebc989fc1b0b541eba276eaa",
     "process_args": [
-      "/opt/hostedtoolcache/Python/3.8.16/x64/bin/python",
-      "/opt/hostedtoolcache/Python/3.8.16/x64/bin/pip",
+      "/opt/hostedtoolcache/Python/3.9.16/x64/bin/python",
+      "/opt/hostedtoolcache/Python/3.9.16/x64/bin/pip",
       "install",
       "-r",
       "requirements.txt"
@@ -165,8 +165,8 @@
   {
     "user_id": 1001,
     "process_name": "python",
-    "binary_path": "/opt/hostedtoolcache/Python/3.8.16/x64/bin/python3.8",
-    "binary_sha256": "c2515e752c271678f91f6e877542fe3548739723e85cbb2316f279e984a2c46b",
+    "binary_path": "/opt/hostedtoolcache/Python/3.9.16/x64/bin/python3.9",
+    "binary_sha256": "f87c4433cc987dc4a295ebd7dcfc801a66c040bfebc989fc1b0b541eba276eaa",
     "process_args": [
       "python",
       "-m",
@@ -230,28 +230,6 @@
       "sudo",
       "killall",
       "tracee"
-    ],
-    "process_env": null
-  },
-  {
-    "user_id": 1001,
-    "process_name": "uname",
-    "binary_path": "/usr/bin/uname",
-    "binary_sha256": "0825c62f4e357c1c026c69a05ed129264dc19974849dc33c530e3cc375e1a851",
-    "process_args": [
-      "uname",
-      "-p"
-    ],
-    "process_env": null
-  },
-  {
-    "user_id": 1001,
-    "process_name": "uname",
-    "binary_path": "/usr/bin/uname",
-    "binary_sha256": "0825c62f4e357c1c026c69a05ed129264dc19974849dc33c530e3cc375e1a851",
-    "process_args": [
-      "uname",
-      "-p"
     ],
     "process_env": null
   },
