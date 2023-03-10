@@ -1,79 +1,6 @@
 [
   {
     "user_id": 1001,
-    "process_name": "rustc",
-    "binary_path": "/home/runner/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc",
-    "binary_sha256": "bb07426057f612b273a5842cd1d2472e6c4246199054068822bb82aa28c0ac72",
-    "process_args": [
-      "/home/runner/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc",
-      "--version"
-    ],
-    "process_env": null
-  },
-  {
-    "user_id": 1001,
-    "process_name": "rustc",
-    "binary_path": "/home/runner/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc",
-    "binary_sha256": "bb07426057f612b273a5842cd1d2472e6c4246199054068822bb82aa28c0ac72",
-    "process_args": [
-      "/home/runner/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc",
-      "--version"
-    ],
-    "process_env": null
-  },
-  {
-    "user_id": 1001,
-    "process_name": "rustc",
-    "binary_path": "/home/runner/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc",
-    "binary_sha256": "bb07426057f612b273a5842cd1d2472e6c4246199054068822bb82aa28c0ac72",
-    "process_args": [
-      "/home/runner/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc",
-      "--version"
-    ],
-    "process_env": null
-  },
-  {
-    "user_id": 1001,
-    "process_name": "rustc",
-    "binary_path": "/home/runner/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc",
-    "binary_sha256": "bb07426057f612b273a5842cd1d2472e6c4246199054068822bb82aa28c0ac72",
-    "process_args": [
-      "/home/runner/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc",
-      "--version"
-    ],
-    "process_env": null
-  },
-  {
-    "user_id": 1001,
-    "process_name": "pip",
-    "binary_path": "/opt/hostedtoolcache/Python/3.8.16/x64/bin/python3.8",
-    "binary_sha256": "c2515e752c271678f91f6e877542fe3548739723e85cbb2316f279e984a2c46b",
-    "process_args": [
-      "/opt/hostedtoolcache/Python/3.8.16/x64/bin/python",
-      "/opt/hostedtoolcache/Python/3.8.16/x64/bin/pip",
-      "install",
-      "-r",
-      "requirements.txt"
-    ],
-    "process_env": null
-  },
-  {
-    "user_id": 1001,
-    "process_name": "bash",
-    "binary_path": "/usr/bin/bash",
-    "binary_sha256": "2c336c63e26881d2f02f34379024e7c314bce572c08cbaa319bacbbec29f93ed",
-    "process_args": [
-      "/usr/bin/bash",
-      "--noprofile",
-      "--norc",
-      "-e",
-      "-o",
-      "pipefail"
-    ],
-    "process_env": null
-  },
-  {
-    "user_id": 1001,
     "process_name": "bash",
     "binary_path": "/usr/bin/bash",
     "binary_sha256": "2c336c63e26881d2f02f34379024e7c314bce572c08cbaa319bacbbec29f93ed",
@@ -98,19 +25,6 @@
   },
   {
     "user_id": 1001,
-    "process_name": "lsb_release",
-    "binary_path": "/usr/bin/python3.10",
-    "binary_sha256": "dbb04ace02303fa5cb3a6d1aa0e7a180d8dd23d3257cc6a0b155d0ee219432a2",
-    "process_args": [
-      "/usr/bin/python3",
-      "-Es",
-      "/usr/bin/lsb_release",
-      "-a"
-    ],
-    "process_env": null
-  },
-  {
-    "user_id": 1001,
     "process_name": "dpkg-query",
     "binary_path": "/usr/bin/dpkg-query",
     "binary_sha256": "629808fd2dea5d964f2693ff61920e5b0cd91ab9d7f41b4dfcaeb29bece10438",
@@ -127,46 +41,14 @@
       "lsb-multimedia",
       "lsb-printing",
       "lsb-security"
-    ],
-    "process_env": null
-  },
-  {
-    "user_id": 1001,
-    "process_name": "dpkg-query",
-    "binary_path": "/usr/bin/dpkg-query",
-    "binary_sha256": "629808fd2dea5d964f2693ff61920e5b0cd91ab9d7f41b4dfcaeb29bece10438",
-    "process_args": [
-      "dpkg-query",
-      "-f",
-      "${Version} ${Provides}\n",
-      "-W",
-      "lsb-core",
-      "lsb-cxx",
-      "lsb-graphics",
-      "lsb-desktop",
-      "lsb-languages",
-      "lsb-multimedia",
-      "lsb-printing",
-      "lsb-security"
-    ],
-    "process_env": null
-  },
-  {
-    "user_id": 0,
-    "process_name": "killall",
-    "binary_path": "/usr/bin/killall",
-    "binary_sha256": "4527e56d015ec6003c985302ef8b222bf054bff69a4f6c0c782cd089e0aa688c",
-    "process_args": [
-      "killall",
-      "tracee"
     ],
     "process_env": null
   },
   {
     "user_id": 1001,
     "process_name": "python",
-    "binary_path": "/opt/hostedtoolcache/Python/3.8.16/x64/bin/python3.8",
-    "binary_sha256": "c2515e752c271678f91f6e877542fe3548739723e85cbb2316f279e984a2c46b",
+    "binary_path": "/opt/hostedtoolcache/Python/3.10.10/x64/bin/python3.10",
+    "binary_sha256": "92f284bdc31ef0ab83620fd35997c9e30ec372dd0524992ce504ed2ae737faa9",
     "process_args": [
       "python",
       "-m",
@@ -185,84 +67,6 @@
     "process_args": [
       "rustc",
       "--version"
-    ],
-    "process_env": null
-  },
-  {
-    "user_id": 1001,
-    "process_name": "rustc",
-    "binary_path": "/home/runner/.cargo/bin/rustc",
-    "binary_sha256": "bb31eaf643926b2ee9f4d8d6fc0e2835e03c0a60f34d324048aa194f0b29a71c",
-    "process_args": [
-      "rustc",
-      "--version"
-    ],
-    "process_env": null
-  },
-  {
-    "user_id": 1001,
-    "process_name": "rustc",
-    "binary_path": "/home/runner/.cargo/bin/rustc",
-    "binary_sha256": "bb31eaf643926b2ee9f4d8d6fc0e2835e03c0a60f34d324048aa194f0b29a71c",
-    "process_args": [
-      "rustc",
-      "--version"
-    ],
-    "process_env": null
-  },
-  {
-    "user_id": 1001,
-    "process_name": "rustc",
-    "binary_path": "/home/runner/.cargo/bin/rustc",
-    "binary_sha256": "bb31eaf643926b2ee9f4d8d6fc0e2835e03c0a60f34d324048aa194f0b29a71c",
-    "process_args": [
-      "rustc",
-      "--version"
-    ],
-    "process_env": null
-  },
-  {
-    "user_id": 1001,
-    "process_name": "sudo",
-    "binary_path": "/usr/bin/sudo",
-    "binary_sha256": "49278c0ebbc089cc04cfa6136a8011519fbaca9d99106443212e43c2141a7ff9",
-    "process_args": [
-      "sudo",
-      "killall",
-      "tracee"
-    ],
-    "process_env": null
-  },
-  {
-    "user_id": 1001,
-    "process_name": "uname",
-    "binary_path": "/usr/bin/uname",
-    "binary_sha256": "0825c62f4e357c1c026c69a05ed129264dc19974849dc33c530e3cc375e1a851",
-    "process_args": [
-      "uname",
-      "-p"
-    ],
-    "process_env": null
-  },
-  {
-    "user_id": 1001,
-    "process_name": "uname",
-    "binary_path": "/usr/bin/uname",
-    "binary_sha256": "0825c62f4e357c1c026c69a05ed129264dc19974849dc33c530e3cc375e1a851",
-    "process_args": [
-      "uname",
-      "-p"
-    ],
-    "process_env": null
-  },
-  {
-    "user_id": 1001,
-    "process_name": "uname",
-    "binary_path": "/usr/bin/uname",
-    "binary_sha256": "0825c62f4e357c1c026c69a05ed129264dc19974849dc33c530e3cc375e1a851",
-    "process_args": [
-      "uname",
-      "-rs"
     ],
     "process_env": null
   },
