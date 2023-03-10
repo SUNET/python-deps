@@ -2,3 +2,4 @@ aiosmtplib
 amqp
 arabic-reshaper
 malicious-donotinstall-httpspost
+
